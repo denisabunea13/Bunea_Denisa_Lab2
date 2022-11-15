@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Bunea_Denisa_Lab2.Data;
 using Bunea_Denisa_Lab2.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bunea_Denisa_Lab2.Pages.Members
 {
@@ -21,6 +22,7 @@ namespace Bunea_Denisa_Lab2.Pages.Members
 
         public IActionResult OnGet()
         {
+           
             return Page();
         }
 
